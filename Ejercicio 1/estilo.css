@@ -1,0 +1,39 @@
+body {
+	margin: 0% 25% 0%;
+}
+header > h1 {
+	text-align: center;
+}
+section#section div.bloques {
+	border: 1pt solid #cbccc1;
+	margin: 5px;
+	padding: 15pt;
+}
+span#foto img {
+	border: 1pt solid #cbccc1;
+	margin: 10px;
+	width: 8%;
+}
+div#datos-personales h2 {
+	text-align: center;
+}
+div h3.institucion + p {
+	font-style: italic;
+}
+div.habilidad {
+	display: inline-block;
+	width: 135pt;
+}
+div.habilidad > div{
+	display: inline-block;
+	border-radius: 1em;
+	padding: 6pt;
+}
+div.habilidad div:first-child {
+	background-color: #364a4b;
+	width: 12pt;
+	text-align: center;
+}
+div.habilidad div:last-child {
+	box-shadow: 3px 3px 1px 1px #ccc;
+}

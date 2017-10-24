@@ -1,0 +1,51 @@
+body {
+	font-family: Verdana;
+}
+h1 {
+	font-family: Anton;
+	color: #414239;
+	font-size: 4em;
+}
+div.bloque > h2 {
+	font-family: Lobster;
+	color: #9e0947;
+	font-size: 2.5em;
+}
+div.bloque {
+	border: 1pt dotted #d7d8cb;
+	height: 350pt;
+}
+div.bloque p {
+	text-align: justify;
+}
+div.bloque h3 {
+	color: #ce105c;
+	font-size: 1em;
+}
+li[famoso='principal'] {
+	font-weight: bold;
+}
+li[famoso='secundario'] {
+	font-family: italica;
+}
+div.bloque > span > ul {
+	list-style-image: url('https://goo.gl/6hPSSH');
+}
+span#cartel img:hover {
+	opacity: 0.8;
+}
+span#sinopsis > p{
+	width: 600px;
+}
+span#cartel {
+	float: left;
+}
+span#cartel img {
+	padding-right: 5pt;
+	padding-left: 10pt;
+	width: 80%;
+}
+span.columna {
+	float: left;
+	padding: 5pt;
+}
